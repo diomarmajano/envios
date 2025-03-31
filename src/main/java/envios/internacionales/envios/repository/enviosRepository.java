@@ -2,10 +2,11 @@ package envios.internacionales.envios.repository;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.springframework.stereotype.Service;
+
+import org.springframework.stereotype.Repository;
 import envios.internacionales.envios.model.enviosModel;
 
-@Service
+@Repository
 public class enviosRepository {
     private List <enviosModel> envios = new ArrayList<>();
     
